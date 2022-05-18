@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 46px;
+}
+
+p{
+    font-size: 28px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    border: 7px grey solid;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.producto{
+    border: 2px black solid ;
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(200, 189, 189);
+}
+
+.producto p{
+    font-size: 20px;
+}

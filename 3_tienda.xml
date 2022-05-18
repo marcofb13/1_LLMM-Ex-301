@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="3_tienda.xsl" type="text/xsl"?>
 <tienda>
              
     <title>Tienda Online</title>
     <encabezado>Bienvenid@s a mi tienda</encabezado>
     <descripcion>Esto es una tienda online que vende productos a través de internet</descripcion>
+
+    <lista_productos>
+
+           <!-- producto 1-->
+           <producto>
+               <nombre_producto>Leche</nombre_producto>
+               <descripcion_producto>Leche de vaca</descripcion_producto>
+               <precio>2€</precio>
+               
+           </producto>
+
+                      <!-- producto 2-->
+           <producto>
+               <nombre_producto>Carne</nombre_producto>
+               <descripcion_producto>Carne de vaca</descripcion_producto>
+               <precio>10€</precio>
+               
+           </producto>
+
+                      <!-- producto 3-->
+           <producto>
+               <nombre_producto>Huevos</nombre_producto>
+               <descripcion_producto>Huevos recien sacados de la huerta</descripcion_producto>
+               <precio>2€</precio>
+               
+           </producto>
+
+                      <!-- producto 4-->
+           <producto>
+               <nombre_producto>Queso</nombre_producto>
+               <descripcion_producto>Queso fresco de cabra</descripcion_producto>
+               <precio>4€</precio>
+               
+           </producto>
+
+
+
+    </lista_productos>
              
 </tienda>
